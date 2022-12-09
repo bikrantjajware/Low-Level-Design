@@ -1,0 +1,5 @@
+composite-pattern/build
+composite-pattern/tsconfig.json
+composite-pattern/node_modules/
+composite-pattern/package-lock.json
+composite-pattern/package.json
