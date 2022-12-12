@@ -1,5 +1,13 @@
 composite-pattern/build
-composite-pattern/tsconfig.json
 composite-pattern/node_modules/
 composite-pattern/package-lock.json
 composite-pattern/package.json
+
+SOLID/single-responsibilty/node_modules/
+SOLID/single-responsibilty/package-lock.json
+SOLID/single-responsibilty/package.json
+
+strategy-pattern/build/
+strategy-pattern/node_modules/
+strategy-pattern/package-lock.json
+strategy-pattern/package.json
