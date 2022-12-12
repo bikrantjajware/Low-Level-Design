@@ -11,3 +11,8 @@ strategy-pattern/build/
 strategy-pattern/node_modules/
 strategy-pattern/package-lock.json
 strategy-pattern/package.json
+
+observer-pattern/build/
+observer-pattern/node_modules/
+observer-pattern/package-lock.json
+observer-pattern/package.json
