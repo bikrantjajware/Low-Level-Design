@@ -16,3 +16,8 @@ observer-pattern/build/
 observer-pattern/node_modules/
 observer-pattern/package-lock.json
 observer-pattern/package.json
+
+decorator-pattern/build/
+decorator-pattern/node_modules/
+decorator-pattern/package-lock.json
+decorator-pattern/package.json
