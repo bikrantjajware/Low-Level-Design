@@ -1,6 +1,6 @@
 import { Observable } from "./observable";
 export interface Observer{
-    id?: number
+    id: number
     mail?: string
     mobile?: string
     update():void
@@ -9,9 +9,11 @@ export interface Observer{
 export class EmailObserver implements Observer{
     observable: Observable
     mail: string
-    constructor(o:Observable,mail: string){
+    id: number;
+    constructor(o:Observable,mail: string,id: number){
         this.observable = o;
         this.mail = mail;
+        this.id = id;
     }
     update(): void {
         console.log('updated observer',this.mail,'with data = ');
@@ -21,9 +23,11 @@ export class EmailObserver implements Observer{
 export class MobileObserver implements Observer{
     observable: Observable
     mobile: string
-    constructor(o:Observable,mobile: string){
+    id: number;
+    constructor(o:Observable,mobile: string,id: number){
         this.observable = o;
         this.mobile = mobile;
+        this.id = id;
     }
     update(): void {
         console.log('updated observer',this.mobile,'with data = ');

@@ -1,13 +1,13 @@
 import {EmailObserver,MobileObserver } from './observer';
 import {OBSERVABLE} from './observable';
 
-function main() {
+export function main() {
 
     const observable1 = new OBSERVABLE({name: 'bikrant'});
 
-    const o1 = new EmailObserver(observable1,'u1@mail.com');
-    const o2 = new MobileObserver(observable1,'98782838');
-    const o3 = new EmailObserver(observable1,'u2@mail.com');
+    const o1 = new EmailObserver(observable1,'u1@mail.com',1);
+    const o2 = new MobileObserver(observable1,'98782838',2);
+    const o3 = new EmailObserver(observable1,'u2@mail.com',3);
     
     
     observable1.add(o1);
@@ -17,4 +17,3 @@ function main() {
     observable1.setData({name: 'raju'});
 
 }
-main();

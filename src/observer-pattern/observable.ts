@@ -18,14 +18,14 @@ export class OBSERVABLE implements Observable{
         this.observers = [];
     }
     add (o: Observer) {
-        console.log('adding observer',o);
+        console.log('adding observer',o.id);
         this.observers.push(o);
     }
     getData(){
         return this.data
     }
     notify () {
-        console.log('notifying observers...');
+        console.log('notifying  observers...');
         for(const observer of this.observers){
             observer.update();
         }
@@ -34,6 +34,7 @@ export class OBSERVABLE implements Observable{
         this.observers = this.observers.filter(observer => observer !== o)
     }
     setData(input: object) {
+        console.log('updating data');
         this.data = input
         this.notify();
     }

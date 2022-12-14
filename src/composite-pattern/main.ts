@@ -10,7 +10,7 @@ import File from "./file";
 import Directory from "./directory";
 
 
-function main() {
+export function main() {
     const home = new Directory("home");
     const movies = new Directory("movies");
     const projects = new Directory("project");
@@ -26,5 +26,3 @@ function main() {
     console.log(home.ls());
 
 }
-
-main();

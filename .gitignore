@@ -21,3 +21,7 @@ decorator-pattern/build/
 decorator-pattern/node_modules/
 decorator-pattern/package-lock.json
 decorator-pattern/package.json
+
+package-lock.json
+build/
+node_modules/

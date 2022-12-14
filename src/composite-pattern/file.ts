@@ -1,4 +1,4 @@
-import FileSystem from "./FileSystemInterface";
+import FileSystem from "./src/FileSystemInterface";
 
 export default class File implements FileSystem{
     filename: string;

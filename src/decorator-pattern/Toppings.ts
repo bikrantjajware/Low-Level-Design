@@ -10,7 +10,7 @@ export class ExtraCheesePizza implements ToppingsPizza{
         this.pizza = pizza;
     }
     cost() {
-        console.log(' add 10 ')
+        console.log(' add CHEESE = 10 ')
         return this.pizza.cost() + 10;
     } 
 }
@@ -21,7 +21,7 @@ export class MushroomPizza implements ToppingsPizza{
         this.pizza = pizza;
     }
     cost() {
-        console.log(' add 10 ')
+        console.log(' add MUSHROOM =  20 ')
         return this.pizza.cost() + 20;
     } 
 }
