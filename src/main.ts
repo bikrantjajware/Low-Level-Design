@@ -4,6 +4,7 @@ import { main as observerPattern } from './observer-pattern/main';
 import { main as strategyPattern } from './strategy-pattern/main';
 import { main as factoryPattern } from './factory-pattern/main';
 import { main as proxyPattern } from './proxy-pattern/main';
+import { main as nullObjectPattern } from './null-object-pattern/main';
 
 function main(){
     // console.log("### COMPOSITE PATTERN ###")
@@ -16,8 +17,10 @@ function main(){
     // strategyPattern();
     // console.log("### Factory PATTERN ###")
     // factoryPattern();
-    console.log("### Proxy PATTERN ###")
-    proxyPattern();
+    // console.log("### Proxy PATTERN ###")
+    // proxyPattern();
+    console.log("### Null Object PATTERN ###")
+    nullObjectPattern();
 
 }
 main();
