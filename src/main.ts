@@ -6,7 +6,7 @@ import { main as factoryPattern } from './factory-pattern/main';
 import { main as proxyPattern } from './proxy-pattern/main';
 import { main as nullObjectPattern } from './null-object-pattern/main';
 import {main as adapterPattern} from './adapter-pattern/main';
-
+import {main as commandPattern} from './command-pattern/main';
 function main(){
     // console.log("### COMPOSITE PATTERN ###")
     // compositePattern();
@@ -22,8 +22,10 @@ function main(){
     // proxyPattern();
     // console.log("### Null Object PATTERN ###")
     // nullObjectPattern();
-    console.log("### Adapter  PATTERN ###")
-    adapterPattern();
+    // console.log("### Adapter  PATTERN ###")
+    // adapterPattern();
+    console.log("### Command  PATTERN ###")
+    commandPattern();
 
 }
 main();
