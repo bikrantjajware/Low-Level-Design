@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "snake-ladder-game": "node build/Examples/snakes-ladders/index.js",
     "start": "node build/main.js",
     "compile": "npx tsc "
   },
