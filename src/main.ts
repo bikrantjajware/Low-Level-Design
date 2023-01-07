@@ -7,6 +7,7 @@ import { main as proxyPattern } from './proxy-pattern/main';
 import { main as nullObjectPattern } from './null-object-pattern/main';
 import {main as adapterPattern} from './adapter-pattern/main';
 import {main as commandPattern} from './command-pattern/main';
+import {main as ChainOfResponsibility} from './chain-of-responsibility/main';
 function main(){
     // console.log("### COMPOSITE PATTERN ###")
     // compositePattern();
@@ -24,8 +25,10 @@ function main(){
     // nullObjectPattern();
     // console.log("### Adapter  PATTERN ###")
     // adapterPattern();
-    console.log("### Command  PATTERN ###")
-    commandPattern();
+    // console.log("### Command  PATTERN ###")
+    // commandPattern();
+    console.log("### Chains of responsibility  PATTERN ###")
+    ChainOfResponsibility();
 
 }
 main();
