@@ -1,13 +1,13 @@
-import { main as compositePattern} from './composite-pattern/main';
-import { main as decoratorPattern} from './decorator-pattern/main';
-import { main as observerPattern } from './observer-pattern/main';
-import { main as strategyPattern } from './strategy-pattern/main';
-import { main as factoryPattern } from './factory-pattern/main';
-import { main as proxyPattern } from './proxy-pattern/main';
-import { main as nullObjectPattern } from './null-object-pattern/main';
-import {main as adapterPattern} from './adapter-pattern/main';
-import {main as commandPattern} from './command-pattern/main';
-import {main as ChainOfResponsibility} from './chain-of-responsibility/main';
+import { main as compositePattern} from './patterns/composite-pattern/main';
+import { main as decoratorPattern} from './patterns/decorator-pattern/main';
+import { main as observerPattern } from './patterns/observer-pattern/main';
+import { main as strategyPattern } from './patterns/strategy-pattern/main';
+import { main as factoryPattern } from './patterns/factory-pattern/main';
+import { main as proxyPattern } from './patterns/proxy-pattern/main';
+import { main as nullObjectPattern } from './patterns/null-object-pattern/main';
+import {main as adapterPattern} from './patterns/adapter-pattern/main';
+import {main as commandPattern} from './patterns/command-pattern/main';
+import {main as ChainOfResponsibility} from './patterns/chain-of-responsibility/main';
 function main(){
     // console.log("### COMPOSITE PATTERN ###")
     // compositePattern();
